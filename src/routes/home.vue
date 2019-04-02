@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <h1>Книги</h1>
-				 <span>Сортировать по:</span>
-			<!--a href="#" v-on="click: sortBy(column)" v-class="active: sortKey == column"></a-->
+				 <!--span>Сортировать по:</span>
+			<a href="#" v-on="click: sortBy(column)" v-class="active: sortKey == column"></a-->
 	 <md-input-container>
 	   <label>Поиск</label>
 	   <md-input placeholder="Поиск книг" v-model="search"></md-input>
